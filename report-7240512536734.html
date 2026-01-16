@@ -1,0 +1,147 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>39907691004062</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Lego-Harry-Potter-Hogwarts-Tm-Textbook-Herbal-Science-76384-Japan-Figure-5702016912951-0.webp?v=1746482395" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Lego-Harry-Potter-Hogwarts-Tm-Textbook-Herbal-Science-76384-Japan-Figure-5702016912951-0.webp?v=1746482395" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">409.76 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x2000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907691004062.webp" target="_blank">
+                            <img src="resized_images/39907691004062.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">86.67 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-323.08 KB</span><br>
+                        <span class="diff-good">(-78.8%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907691069598</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Lego-Harry-Potter-Hogwarts-Tm-Textbook-Herbal-Science-76384-Japan-Figure-5702016912951-1.webp?v=1746482402" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Lego-Harry-Potter-Hogwarts-Tm-Textbook-Herbal-Science-76384-Japan-Figure-5702016912951-1.webp?v=1746482402" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">469.83 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907691069598.webp" target="_blank">
+                            <img src="resized_images/39907691069598.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">71.43 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-398.40 KB</span><br>
+                        <span class="diff-good">(-84.8%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33538310996126</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Lego-Harry-Potter-Hogwarts-Tm-Textbook-Herbal-Science-76384-Japan-Figure-5702016912951-2.jpg?v=1746482401" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Lego-Harry-Potter-Hogwarts-Tm-Textbook-Herbal-Science-76384-Japan-Figure-5702016912951-2.jpg?v=1746482401" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">286.27 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33538310996126.webp" target="_blank">
+                            <img src="resized_images/33538310996126.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">44.44 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-241.83 KB</span><br>
+                        <span class="diff-good">(-84.5%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907691135134</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Lego-Harry-Potter-Hogwarts-Tm-Textbook-Herbal-Science-76384-Japan-Figure-5702016912951-3.webp?v=1746482409" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Lego-Harry-Potter-Hogwarts-Tm-Textbook-Herbal-Science-76384-Japan-Figure-5702016912951-3.webp?v=1746482409" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">858.55 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x2000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907691135134.webp" target="_blank">
+                            <img src="resized_images/39907691135134.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">111.24 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-747.31 KB</span><br>
+                        <span class="diff-good">(-87.0%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

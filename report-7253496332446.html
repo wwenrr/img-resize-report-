@@ -1,0 +1,175 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>42460326789278</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-0.webp?v=1768406625" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-0.webp?v=1768406625" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">1710.77 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x2504</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/42460326789278.webp" target="_blank">
+                            <img src="resized_images/42460326789278.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">257.59 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1174</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-1453.18 KB</span><br>
+                        <span class="diff-good">(-84.9%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>42460327116958</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-1.webp?v=1768406633" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-1.webp?v=1768406633" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">1152.26 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/42460327116958.webp" target="_blank">
+                            <img src="resized_images/42460327116958.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">127.94 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-1024.32 KB</span><br>
+                        <span class="diff-good">(-88.9%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33683805667486</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-2.jpg?v=1768406633" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-2.jpg?v=1768406633" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">761.74 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33683805667486.webp" target="_blank">
+                            <img src="resized_images/33683805667486.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">98.85 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-662.88 KB</span><br>
+                        <span class="diff-good">(-87.0%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33683805700254</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-3.jpg?v=1768406633" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-3.jpg?v=1768406633" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">613.07 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33683805700254.webp" target="_blank">
+                            <img src="resized_images/33683805700254.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">99.12 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-513.95 KB</span><br>
+                        <span class="diff-good">(-83.8%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>42460327444638</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-4.webp?v=1768406645" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Bandai-Mini-Towel-Devil39S-Blade-Nezuko-Kamado-4355001700-Japan-Figure-4992272750966-4.webp?v=1768406645" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">1076.58 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/42460327444638.webp" target="_blank">
+                            <img src="resized_images/42460327444638.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">128.47 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-948.11 KB</span><br>
+                        <span class="diff-good">(-88.1%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

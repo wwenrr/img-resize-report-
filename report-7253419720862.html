@@ -1,0 +1,147 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>36477480403102</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Rilakkuma-Bank-Japan-Figure-4582319371003-0_1e162c48-6eae-4510-a589-19bad2572564.jpg?v=1700780333" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Rilakkuma-Bank-Japan-Figure-4582319371003-0_1e162c48-6eae-4510-a589-19bad2572564.jpg?v=1700780333" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">242.04 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2541x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/36477480403102.webp" target="_blank">
+                            <img src="resized_images/36477480403102.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">44.53 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1191x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-197.52 KB</span><br>
+                        <span class="diff-good">(-81.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>36477480435870</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Rilakkuma-Bank-Japan-Figure-4582319371003-1_d34e02b5-eada-4cb8-b49f-32dfd7655d02.jpg?v=1700780333" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Rilakkuma-Bank-Japan-Figure-4582319371003-1_d34e02b5-eada-4cb8-b49f-32dfd7655d02.jpg?v=1700780333" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">200.15 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x2547</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/36477480435870.webp" target="_blank">
+                            <img src="resized_images/36477480435870.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">36.34 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1194</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-163.82 KB</span><br>
+                        <span class="diff-good">(-81.8%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39908329750686</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Rilakkuma-Bank-Japan-Figure-4582319371003-2_619d3801-a649-475a-b0ca-c5dade98dda4.webp?v=1746491027" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Rilakkuma-Bank-Japan-Figure-4582319371003-2_619d3801-a649-475a-b0ca-c5dade98dda4.webp?v=1746491027" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">643.69 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2497x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39908329750686.webp" target="_blank">
+                            <img src="resized_images/39908329750686.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">99.35 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1170x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-544.34 KB</span><br>
+                        <span class="diff-good">(-84.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39908330209438</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Rilakkuma-Bank-Japan-Figure-4582319371003-3_852e92bc-23e1-465a-b2ba-c305e2b5ef57.webp?v=1746491034" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Rilakkuma-Bank-Japan-Figure-4582319371003-3_852e92bc-23e1-465a-b2ba-c305e2b5ef57.webp?v=1746491034" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">749.40 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2519x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39908330209438.webp" target="_blank">
+                            <img src="resized_images/39908330209438.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">99.34 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1181x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-650.06 KB</span><br>
+                        <span class="diff-good">(-86.7%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

@@ -1,0 +1,175 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>33682366005406</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-0.jpg?v=1657246465" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-0.jpg?v=1657246465" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">201.53 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1000x1000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33682366005406.webp" target="_blank">
+                            <img src="resized_images/33682366005406.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">98.40 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1000x1000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-103.12 KB</span><br>
+                        <span class="diff-good">(-51.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39908274012318</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-1.webp?v=1746490587" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-1.webp?v=1746490587" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">455.24 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x1400</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39908274012318.webp" target="_blank">
+                            <img src="resized_images/39908274012318.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">98.64 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x840</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-356.60 KB</span><br>
+                        <span class="diff-good">(-78.3%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39908274929822</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-2.webp?v=1746490591" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-2.webp?v=1746490591" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">420.87 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x1400</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39908274929822.webp" target="_blank">
+                            <img src="resized_images/39908274929822.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">98.13 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x840</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-322.73 KB</span><br>
+                        <span class="diff-good">(-76.7%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39908275159198</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-3.webp?v=1746490596" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-3.webp?v=1746490596" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">393.75 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x1400</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39908275159198.webp" target="_blank">
+                            <img src="resized_images/39908275159198.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">88.78 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x840</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-304.96 KB</span><br>
+                        <span class="diff-good">(-77.5%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39908276043934</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-4.webp?v=1746490600" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Devil39S-Blade-Magnet-Collection-Gum-2-14-Pieces-Shokugan--Gum-Devil39S-Blade-Japan-Figure-4970381475710-4.webp?v=1746490600" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">380.13 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x1400</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39908276043934.webp" target="_blank">
+                            <img src="resized_images/39908276043934.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">83.52 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x840</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-296.60 KB</span><br>
+                        <span class="diff-good">(-78.0%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

@@ -1,0 +1,175 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>39908363239582</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-0.webp?v=1746491580" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-0.webp?v=1746491580" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">452.15 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1489</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39908363239582.webp" target="_blank">
+                            <img src="resized_images/39908363239582.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">97.86 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1191</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-354.29 KB</span><br>
+                        <span class="diff-good">(-78.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>35499569807518</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-1.jpg?v=1746491579" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-1.jpg?v=1746491579" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">262.02 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35499569807518.webp" target="_blank">
+                            <img src="resized_images/35499569807518.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">83.39 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-178.62 KB</span><br>
+                        <span class="diff-good">(-68.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>35499569840286</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-2.jpg?v=1746491579" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-2.jpg?v=1746491579" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">192.35 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35499569840286.webp" target="_blank">
+                            <img src="resized_images/35499569840286.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">52.05 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-140.30 KB</span><br>
+                        <span class="diff-good">(-72.9%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>35499569873054</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-3.jpg?v=1746491579" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-3.jpg?v=1746491579" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">263.38 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35499569873054.webp" target="_blank">
+                            <img src="resized_images/35499569873054.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">85.42 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-177.96 KB</span><br>
+                        <span class="diff-good">(-67.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>35499569905822</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-4.jpg?v=1746491579" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Osk-Devil39S-Blade-Napkin-Nf4-Aisuke-Japan-Figure-4970825125461-4.jpg?v=1746491579" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">274.22 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35499569905822.webp" target="_blank">
+                            <img src="resized_images/35499569905822.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">93.32 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-180.90 KB</span><br>
+                        <span class="diff-good">(-66.0%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

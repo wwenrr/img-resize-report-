@@ -1,0 +1,147 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>39907683041438</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Adventure-Time-Plush-Toy-S-Finn-Japan-Figure-4991733078342-1.webp?v=1746481990" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Adventure-Time-Plush-Toy-S-Finn-Japan-Figure-4991733078342-1.webp?v=1746481990" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">279.28 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1525</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907683041438.webp" target="_blank">
+                            <img src="resized_images/39907683041438.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">58.64 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1180x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-220.63 KB</span><br>
+                        <span class="diff-good">(-79.0%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33537857061022</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Adventure-Time-Plush-Toy-S-Finn-Japan-Figure-4991733078342-2.jpg?v=1746481989" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Adventure-Time-Plush-Toy-S-Finn-Japan-Figure-4991733078342-2.jpg?v=1746481989" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">242.82 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1891</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33537857061022.webp" target="_blank">
+                            <img src="resized_images/33537857061022.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">45.00 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">952x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-197.82 KB</span><br>
+                        <span class="diff-good">(-81.5%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33537857093790</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Adventure-Time-Plush-Toy-S-Finn-Japan-Figure-4991733078342-3.jpg?v=1746481989" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Adventure-Time-Plush-Toy-S-Finn-Japan-Figure-4991733078342-3.jpg?v=1746481989" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">255.41 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1802</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33537857093790.webp" target="_blank">
+                            <img src="resized_images/33537857093790.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">47.60 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">999x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-207.81 KB</span><br>
+                        <span class="diff-good">(-81.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33537857126558</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Adventure-Time-Plush-Toy-S-Finn-Japan-Figure-4991733078342-4.jpg?v=1746481989" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Adventure-Time-Plush-Toy-S-Finn-Japan-Figure-4991733078342-4.jpg?v=1746481989" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">276.89 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1269</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33537857126558.webp" target="_blank">
+                            <img src="resized_images/33537857126558.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">97.34 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1015</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-179.55 KB</span><br>
+                        <span class="diff-good">(-64.8%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

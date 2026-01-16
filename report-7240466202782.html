@@ -1,0 +1,175 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>35454605820062</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-0.jpg?v=1676825572" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-0.jpg?v=1676825572" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">200.51 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1722x1744</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35454605820062.webp" target="_blank">
+                            <img src="resized_images/35454605820062.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">27.76 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1185x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-172.75 KB</span><br>
+                        <span class="diff-good">(-86.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907685564574</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-1.webp?v=1746482042" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-1.webp?v=1746482042" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">385.30 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x2000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907685564574.webp" target="_blank">
+                            <img src="resized_images/39907685564574.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">67.59 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-317.71 KB</span><br>
+                        <span class="diff-good">(-82.5%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>35454605885598</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-2.jpg?v=1746482041" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-2.jpg?v=1746482041" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">195.02 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x2000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35454605885598.webp" target="_blank">
+                            <img src="resized_images/35454605885598.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">37.37 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-157.65 KB</span><br>
+                        <span class="diff-good">(-80.8%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907685662878</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-3.webp?v=1746482050" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-3.webp?v=1746482050" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">545.24 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x2000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907685662878.webp" target="_blank">
+                            <img src="resized_images/39907685662878.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">69.20 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-476.04 KB</span><br>
+                        <span class="diff-good">(-87.3%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>35454605951134</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-4.jpg?v=1746482049" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Morishita-Sanrio-Kuromi-Hug-Me-Hug-Me-Cushion-Approx.-30X40Cm-Black-Japan-Figure-4548598336508-4.jpg?v=1746482049" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">210.97 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x2000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35454605951134.webp" target="_blank">
+                            <img src="resized_images/35454605951134.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">22.89 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-188.07 KB</span><br>
+                        <span class="diff-good">(-89.1%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

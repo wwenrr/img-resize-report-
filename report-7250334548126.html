@@ -1,0 +1,91 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>39907850387614</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Marushin-Mini-Towel-Ghibli-My-Neighbor-Totoro-Approximately-25--25Cm-Autumn-Color-100-Cotton-1005016600-Japan-Figure-4992272648898-0.webp?v=1746484808" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Marushin-Mini-Towel-Ghibli-My-Neighbor-Totoro-Approximately-25--25Cm-Autumn-Color-100-Cotton-1005016600-Japan-Figure-4992272648898-0.webp?v=1746484808" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">991.11 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2472x2560</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907850387614.webp" target="_blank">
+                            <img src="resized_images/39907850387614.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">98.00 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1159x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-893.11 KB</span><br>
+                        <span class="diff-good">(-90.1%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907853041822</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Marushin-Mini-Towel-Ghibli-My-Neighbor-Totoro-Approximately-25--25Cm-Autumn-Color-100-Cotton-1005016600-Japan-Figure-4992272648898-1.webp?v=1746484818" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Marushin-Mini-Towel-Ghibli-My-Neighbor-Totoro-Approximately-25--25Cm-Autumn-Color-100-Cotton-1005016600-Japan-Figure-4992272648898-1.webp?v=1746484818" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">672.85 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2560x1697</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907853041822.webp" target="_blank">
+                            <img src="resized_images/39907853041822.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">97.81 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x795</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-575.04 KB</span><br>
+                        <span class="diff-good">(-85.5%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

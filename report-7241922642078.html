@@ -1,0 +1,147 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>33558300393630</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Uno-Pokemon-Special-Rule-Card-With-Snorlax-Amp-Geckoga-Gnh17-Japan-Figure-0887961870329-0.jpg?v=1655893290" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Uno-Pokemon-Special-Rule-Card-With-Snorlax-Amp-Geckoga-Gnh17-Japan-Figure-0887961870329-0.jpg?v=1655893290" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">273.51 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1383x2101</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33558300393630.webp" target="_blank">
+                            <img src="resized_images/33558300393630.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">43.10 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">790x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-230.41 KB</span><br>
+                        <span class="diff-good">(-84.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907696803998</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Uno-Pokemon-Special-Rule-Card-With-Snorlax-Amp-Geckoga-Gnh17-Japan-Figure-0887961870329-1.webp?v=1746482755" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Uno-Pokemon-Special-Rule-Card-With-Snorlax-Amp-Geckoga-Gnh17-Japan-Figure-0887961870329-1.webp?v=1746482755" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">352.61 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1368x2123</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907696803998.webp" target="_blank">
+                            <img src="resized_images/39907696803998.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">54.72 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">773x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-297.89 KB</span><br>
+                        <span class="diff-good">(-84.5%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907697131678</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Uno-Pokemon-Special-Rule-Card-With-Snorlax-Amp-Geckoga-Gnh17-Japan-Figure-0887961870329-2.webp?v=1746482760" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Uno-Pokemon-Special-Rule-Card-With-Snorlax-Amp-Geckoga-Gnh17-Japan-Figure-0887961870329-2.webp?v=1746482760" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">332.88 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x2000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907697131678.webp" target="_blank">
+                            <img src="resized_images/39907697131678.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">63.52 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-269.36 KB</span><br>
+                        <span class="diff-good">(-80.9%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33558300491934</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Uno-Pokemon-Special-Rule-Card-With-Snorlax-Amp-Geckoga-Gnh17-Japan-Figure-0887961870329-3.jpg?v=1746482759" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Uno-Pokemon-Special-Rule-Card-With-Snorlax-Amp-Geckoga-Gnh17-Japan-Figure-0887961870329-3.jpg?v=1746482759" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">230.32 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">2000x2000</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33558300491934.webp" target="_blank">
+                            <img src="resized_images/33558300491934.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">53.38 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-176.94 KB</span><br>
+                        <span class="diff-good">(-76.8%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

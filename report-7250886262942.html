@@ -1,0 +1,147 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>33660988031134</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Hacomo-Hacomo-Pusu-Pusu-Rome-Japan-Figure-4562201013402-0.jpg?v=1657006788" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Hacomo-Hacomo-Pusu-Pusu-Rome-Japan-Figure-4562201013402-0.jpg?v=1657006788" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">248.92 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1628x1300</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33660988031134.webp" target="_blank">
+                            <img src="resized_images/33660988031134.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">54.49 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x958</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-194.43 KB</span><br>
+                        <span class="diff-good">(-78.1%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33660988063902</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Hacomo-Hacomo-Pusu-Pusu-Rome-Japan-Figure-4562201013402-1.jpg?v=1657006788" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Hacomo-Hacomo-Pusu-Pusu-Rome-Japan-Figure-4562201013402-1.jpg?v=1657006788" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">168.40 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1050x1028</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33660988063902.webp" target="_blank">
+                            <img src="resized_images/33660988063902.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">36.57 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1050x1028</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-131.83 KB</span><br>
+                        <span class="diff-good">(-78.3%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>33660988096670</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Hacomo-Hacomo-Pusu-Pusu-Rome-Japan-Figure-4562201013402-2.jpg?v=1657006788" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Hacomo-Hacomo-Pusu-Pusu-Rome-Japan-Figure-4562201013402-2.jpg?v=1657006788" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">168.13 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1094x1002</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/33660988096670.webp" target="_blank">
+                            <img src="resized_images/33660988096670.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">36.29 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1094x1002</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-131.84 KB</span><br>
+                        <span class="diff-good">(-78.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907943776414</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Hacomo-Hacomo-Pusu-Pusu-Rome-Japan-Figure-4562201013402-3.webp?v=1746486405" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Hacomo-Hacomo-Pusu-Pusu-Rome-Japan-Figure-4562201013402-3.webp?v=1746486405" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">282.10 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1876x952</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907943776414.webp" target="_blank">
+                            <img src="resized_images/39907943776414.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">40.48 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x609</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-241.61 KB</span><br>
+                        <span class="diff-good">(-85.6%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

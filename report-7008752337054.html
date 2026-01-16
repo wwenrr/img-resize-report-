@@ -1,0 +1,455 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>31033903612062</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-0.jpg?v=1633678180" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-0.jpg?v=1633678180" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">9.51 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903612062.webp" target="_blank">
+                            <img src="resized_images/31033903612062.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">8.78 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.74 KB</span><br>
+                        <span class="diff-good">(-7.7%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903644830</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-1.jpg?v=1633678180" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-1.jpg?v=1633678180" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">9.02 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903644830.webp" target="_blank">
+                            <img src="resized_images/31033903644830.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">8.39 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.62 KB</span><br>
+                        <span class="diff-good">(-6.9%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903677598</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-2.jpg?v=1633678180" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-2.jpg?v=1633678180" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">7.37 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903677598.webp" target="_blank">
+                            <img src="resized_images/31033903677598.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">6.36 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-1.01 KB</span><br>
+                        <span class="diff-good">(-13.7%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903710366</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-3.jpg?v=1633678180" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-3.jpg?v=1633678180" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">7.64 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903710366.webp" target="_blank">
+                            <img src="resized_images/31033903710366.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">6.47 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-1.17 KB</span><br>
+                        <span class="diff-good">(-15.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903775902</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-4.jpg?v=1633678180" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-4.jpg?v=1633678180" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">8.96 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903775902.webp" target="_blank">
+                            <img src="resized_images/31033903775902.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">8.03 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.93 KB</span><br>
+                        <span class="diff-good">(-10.3%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903808670</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-5.jpg?v=1633678180" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-5.jpg?v=1633678180" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">10.73 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903808670.webp" target="_blank">
+                            <img src="resized_images/31033903808670.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">10.07 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.67 KB</span><br>
+                        <span class="diff-good">(-6.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903841438</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-6.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-6.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">28.12 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903841438.webp" target="_blank">
+                            <img src="resized_images/31033903841438.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">23.44 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-4.68 KB</span><br>
+                        <span class="diff-good">(-16.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903874206</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-7.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-7.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">14.88 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903874206.webp" target="_blank">
+                            <img src="resized_images/31033903874206.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">14.26 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.63 KB</span><br>
+                        <span class="diff-good">(-4.2%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903906974</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-8.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-8.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">10.95 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903906974.webp" target="_blank">
+                            <img src="resized_images/31033903906974.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">10.42 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.53 KB</span><br>
+                        <span class="diff-good">(-4.8%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033903972510</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-9.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-9.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">12.47 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033903972510.webp" target="_blank">
+                            <img src="resized_images/31033903972510.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">12.00 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.46 KB</span><br>
+                        <span class="diff-good">(-3.7%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033904038046</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-10.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-10.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">10.56 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033904038046.webp" target="_blank">
+                            <img src="resized_images/31033904038046.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">9.99 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.57 KB</span><br>
+                        <span class="diff-good">(-5.4%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033904070814</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-11.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-11.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">9.55 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033904070814.webp" target="_blank">
+                            <img src="resized_images/31033904070814.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">8.84 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.71 KB</span><br>
+                        <span class="diff-good">(-7.5%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033904103582</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-12.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-12.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">9.03 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033904103582.webp" target="_blank">
+                            <img src="resized_images/31033904103582.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">8.48 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.54 KB</span><br>
+                        <span class="diff-good">(-6.0%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033904136350</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-13.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-13.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">10.19 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033904136350.webp" target="_blank">
+                            <img src="resized_images/31033904136350.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">9.69 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.50 KB</span><br>
+                        <span class="diff-good">(-4.9%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>31033904201886</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-14.jpg?v=1633678181" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Center-Plush-Ball-Guy-Japan-Figure-4521329305653-14.jpg?v=1633678181" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">10.02 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/31033904201886.webp" target="_blank">
+                            <img src="resized_images/31033904201886.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">9.29 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">500x500</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-0.74 KB</span><br>
+                        <span class="diff-good">(-7.4%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

@@ -1,0 +1,91 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>35497297477790</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/S.h.figuarts-Tiger--Bunny-Rock-Bison-Action-Figure-Bandai-Tamashii-Nations-Japan-Figure-4543112711168-2_767206b5-a73d-4c41-8d37-c84b29f04d73.jpg?v=1677366000" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/S.h.figuarts-Tiger--Bunny-Rock-Bison-Action-Figure-Bandai-Tamashii-Nations-Japan-Figure-4543112711168-2_767206b5-a73d-4c41-8d37-c84b29f04d73.jpg?v=1677366000" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">157.75 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1065</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35497297477790.webp" target="_blank">
+                            <img src="resized_images/35497297477790.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">35.30 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x852</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-122.45 KB</span><br>
+                        <span class="diff-good">(-77.6%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>35497297510558</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/S.h.figuarts-Tiger--Bunny-Rock-Bison-Action-Figure-Bandai-Tamashii-Nations-Japan-Figure-4543112711168-3_a23fa2ee-e839-4910-830e-91e288622342.jpg?v=1677366000" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/S.h.figuarts-Tiger--Bunny-Rock-Bison-Action-Figure-Bandai-Tamashii-Nations-Japan-Figure-4543112711168-3_a23fa2ee-e839-4910-830e-91e288622342.jpg?v=1677366000" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">166.74 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1500x1059</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35497297510558.webp" target="_blank">
+                            <img src="resized_images/35497297510558.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">40.15 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1200x847</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-126.59 KB</span><br>
+                        <span class="diff-good">(-75.9%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

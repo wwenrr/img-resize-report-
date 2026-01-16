@@ -1,0 +1,91 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Optimization Report</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+            h1 { text-align: center; }
+            table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+            th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; vertical-align: top; }
+            th { background: #333; color: white; }
+            .img-preview { max-width: 200px; height: auto; border: 1px solid #ddd; padding: 4px; border-radius: 4px; }
+            .stat-label { font-weight: bold; color: #666; font-size: 0.9em; }
+            .stat-val { font-family: monospace; }
+            .diff-good { color: green; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Optimization Report</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Original</th>
+                    <th>Optimized (WebP, Max 1500px, Q=75)</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>35502294007966</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Card-Game-Sword-Amp-Shield-Enhanced-Expansion-Pack-QuotLegendary-HeartbeatQuot-Box-Japan-Figure-4521329290119-0_fd9372e9-1dbd-48ef-94c9-4deef0a696fa.jpg?v=1677427264" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/products/Pokemon-Card-Game-Sword-Amp-Shield-Enhanced-Expansion-Pack-QuotLegendary-HeartbeatQuot-Box-Japan-Figure-4521329290119-0_fd9372e9-1dbd-48ef-94c9-4deef0a696fa.jpg?v=1677427264" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">270.87 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1186x1394</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/35502294007966.webp" target="_blank">
+                            <img src="resized_images/35502294007966.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">99.85 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1021x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-171.02 KB</span><br>
+                        <span class="diff-good">(-63.1%)</span>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>39907754016926</td>
+                    <td>
+                        <a href="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Pokemon-Card-Game-Sword-Amp-Shield-Enhanced-Expansion-Pack-QuotLegendary-HeartbeatQuot-Box-Japan-Figure-4521329290119-1_09800632-3267-4ad2-b901-3fc6517f5a5b.webp?v=1746483881" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0568/2298/8958/files/Pokemon-Card-Game-Sword-Amp-Shield-Enhanced-Expansion-Pack-QuotLegendary-HeartbeatQuot-Box-Japan-Figure-4521329290119-1_09800632-3267-4ad2-b901-3fc6517f5a5b.webp?v=1746483881" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">379.71 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">1092x1938</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">JPEG</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <a href="resized_images/39907754016926.webp" target="_blank">
+                            <img src="resized_images/39907754016926.webp" class="img-preview">
+                        </a><br>
+                        <span class="stat-label">Size:</span> <span class="stat-val">81.69 KB</span><br>
+                        <span class="stat-label">Res:</span> <span class="stat-val">676x1200</span><br>
+                        <span class="stat-label">Fmt:</span> <span class="stat-val">WEBP</span><br>
+                        <span class="stat-label">Ch:</span> <span class="stat-val">3 (R, G, B)</span><br>
+                        <span class="stat-label">Depth:</span> <span class="stat-val">8-bit</span>
+                    </td>
+                    <td>
+                        <span class="diff-good">-298.03 KB</span><br>
+                        <span class="diff-good">(-78.5%)</span>
+                    </td>
+                </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
