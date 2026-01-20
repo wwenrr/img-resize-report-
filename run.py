@@ -79,7 +79,7 @@ def select_store(auto_choice=None):
         else:
             print(f"{Colors.RED}Invalid choice. Please enter 1, 2, jwl, or jf.{Colors.ENDC}")
 
-def fetch_products_generator(shop_url, token, batches_per_yield=100):
+def fetch_products_generator(shop_url, token, batches_per_yield=15):
     """
     Generator that fetches products and yields them in chunks.
     Args:
@@ -558,7 +558,7 @@ if __name__ == "__main__":
     all_processed_product_ids = set()
     
     # Use generator to fetch chunks of products (100 batches at a time)
-    product_generator = fetch_products_generator(shop_url, token, batches_per_yield=10)
+    product_generator = fetch_products_generator(shop_url, token, batches_per_yield=1)
     
     for chunk_index, products_chunk in enumerate(product_generator):
         print(f"\n{Colors.BOLD}{Colors.HEADER}{'='*60}{Colors.ENDC}")
