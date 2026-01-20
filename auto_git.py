@@ -45,7 +45,7 @@ def main():
             
         print("⏳ Waiting 60 seconds...")
         try:
-            time.sleep(60)
+            time.sleep(1800)
         except KeyboardInterrupt:
             print("\n🛑 Stopped by user.")
             break
