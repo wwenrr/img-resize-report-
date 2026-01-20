@@ -210,7 +210,7 @@ def analyze_all_images(products):
     
     # Concurrent fetch sizes
     results = []
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         future_to_info = {
             executor.submit(get_image_size_head, info['url']): info 
             for info in image_info
