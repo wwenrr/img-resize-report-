@@ -7,6 +7,7 @@ from PIL import Image
 from io import BytesIO
 from report_generator import generate_html_report, get_file_size_display
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import argparse
 
 class Colors:
     HEADER = '\033[95m'
@@ -512,6 +513,10 @@ def get_product_images(product_id, shop_url, token, auto_sync=None):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Shopify Image Resizer')
+    parser.add_argument('--skip-chunk', type=int, default=0, help='Number of initial chunks to skip')
+    args = parser.parse_args()
+
     from report_generator import generate_index_html
     generate_index_html()    
 
@@ -553,7 +558,7 @@ if __name__ == "__main__":
     all_processed_product_ids = set()
     
     # Use generator to fetch chunks of products (100 batches at a time)
-    product_generator = fetch_products_generator(shop_url, token, batches_per_yield=1)
+    product_generator = fetch_products_generator(shop_url, token, batches_per_yield=10)
     
     for chunk_index, products_chunk in enumerate(product_generator):
         print(f"\n{Colors.BOLD}{Colors.HEADER}{'='*60}{Colors.ENDC}")
@@ -561,6 +566,10 @@ if __name__ == "__main__":
         print(f"{Colors.BOLD}{Colors.HEADER}Products in this chunk: {len(products_chunk)}{Colors.ENDC}")
         print(f"{Colors.BOLD}{Colors.HEADER}{'='*60}{Colors.ENDC}\n")
         
+        if chunk_index < args.skip_chunk:
+            print(f"{Colors.YELLOW}» Skipping Chunk #{chunk_index + 1} per request (--skip-chunk={args.skip_chunk})...{Colors.ENDC}")
+            continue
+
         if not products_chunk:
             continue
         
