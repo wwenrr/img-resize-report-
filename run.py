@@ -28,7 +28,7 @@ jf_access_token = input(f"{Colors.CYAN}Enter JF Access Token: {Colors.ENDC}").st
 STORES = {
     "jwl": {
         "name": "Japan World Link",
-        "shop_url": "japan-world-link.myshopify.com",
+        "shop_url": "japan-with-love.myshopify.com",
         "token": jwl_access_token
     },
     "jf": {
@@ -521,7 +521,7 @@ if __name__ == "__main__":
     generate_index_html()    
 
     # Select store first
-    shop_url, token = select_store(2)
+    shop_url, token = select_store(1)
     
     # Auto sync setting
     auto_sync = True
