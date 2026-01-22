@@ -210,7 +210,7 @@ def analyze_all_images(products):
     
     # Concurrent fetch sizes
     results = []
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=50) as executor:
         future_to_info = {
             executor.submit(get_image_size_head, info['url']): info 
             for info in image_info
@@ -521,7 +521,7 @@ if __name__ == "__main__":
     generate_index_html()    
 
     # Select store first
-    shop_url, token = select_store(1)
+    shop_url, token = select_store(2)
     
     # Auto sync setting
     auto_sync = True
